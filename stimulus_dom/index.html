@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script>
+    </head>
+    <body>
+        <h1>Stimulus DOM</h1>
+        <div data-controller="dom">
+            <div data-target="dom.content"></div>
+            <input data-target="dom.input">
+            <button data-action="click->dom#Add">Add</button>
+            <button data-action="click->dom#Remove">Remove</button>
+        </div>
+        <script src="dom_controller.js"></script>
+    </body>
+</html>
